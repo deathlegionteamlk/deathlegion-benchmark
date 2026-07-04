@@ -1,0 +1,30 @@
+{
+  "id": "suffix_automaton",
+  "title": "Suffix Automaton \u2014 Count Distinct Substrings",
+  "category": "algorithmic",
+  "languages_allowed": [
+    "python"
+  ],
+  "time_limit_s": 30,
+  "memory_limit_mb": 256,
+  "prompt_md": "prompt.md",
+  "reference_solution": {
+    "path": "reference.py",
+    "language": "python",
+    "is_verified": true,
+    "expected_output_hash": ""
+  },
+  "grader_spec": {
+    "module": "execution_trace",
+    "config": {
+      "expected_patterns": [
+        "String: banana",
+        "Distinct substrings: 15"
+      ],
+      "expected_exit_code": 0,
+      "input": "",
+      "max_runtime_s": 10
+    }
+  },
+  "difficulty_rationale": "Requires building a suffix automaton (SAM) \u2014 a linear-time automaton that recognizes all substrings. The construction involves maintaining 'link' (suffix link) and 'next' transitions with a 'last' pointer, handling cases where transitions already exist. Non-trivial to implement correctly. Uses 'suffix automaton' technique from design guide."
+}

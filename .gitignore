@@ -30,4 +30,4 @@ Thumbs.db
 *.pth
 *.gguf
 *.bin
-results/
+# results/  # Uncomment to exclude evaluation results from version control

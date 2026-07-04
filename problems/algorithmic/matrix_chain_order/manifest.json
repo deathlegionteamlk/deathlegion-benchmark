@@ -1,0 +1,30 @@
+{
+  "id": "matrix_chain_order",
+  "title": "Matrix Chain Multiplication \u2014 Optimal Parenthesization",
+  "category": "algorithmic",
+  "languages_allowed": [
+    "python"
+  ],
+  "time_limit_s": 30,
+  "memory_limit_mb": 256,
+  "prompt_md": "prompt.md",
+  "reference_solution": {
+    "path": "reference.py",
+    "language": "python",
+    "is_verified": true,
+    "expected_output_hash": ""
+  },
+  "grader_spec": {
+    "module": "execution_trace",
+    "config": {
+      "expected_patterns": [
+        "Optimal cost: 11875",
+        "Parenthesization: ((A0(A1A2))(A3A4))"
+      ],
+      "expected_exit_code": 0,
+      "input": "",
+      "max_runtime_s": 10
+    }
+  },
+  "difficulty_rationale": "Requires dynamic programming with optimal substructure. Naive recursive approach is exponential O(2^n). The correct O(n^3) DP with proper table-filling order is non-trivial. Uses the 'divide-and-conquer DP optimization' technique class from the problem design guide."
+}

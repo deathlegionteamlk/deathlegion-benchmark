@@ -1,0 +1,93 @@
+{
+  "leaderboard": {
+    "title": "Deathlegion Benchmark Leaderboard",
+    "description": "Official leaderboard for the Deathlegion Benchmark. Results from reference solutions and near-miss validation runs.",
+    "version": "1.0.0",
+    "generated_at": "2026-07-04T13:28:58Z",
+    "categories": [
+      "algorithmic",
+      "agentic",
+      "adversarial"
+    ],
+    "problems_count": {
+      "algorithmic": 5,
+      "agentic": 0,
+      "adversarial": 0,
+      "total": 5
+    },
+    "entries": [
+      {
+        "rank": 1,
+        "model": "Reference Solver (Perfect)",
+        "provider": "N/A",
+        "algorithmic": 100.0,
+        "agentic": 0.0,
+        "adversarial": 0.0,
+        "overall": 33.3,
+        "date": "2025-07-04",
+        "notes": "Perfect score on all 5 algorithmic seed problems"
+      },
+      {
+        "rank": 2,
+        "model": "Flawed Solver (Greedy.Py)",
+        "provider": "N/A",
+        "algorithmic": 0.0,
+        "agentic": 0.0,
+        "adversarial": 0.0,
+        "overall": 0.0,
+        "date": "2025-07-04",
+        "notes": "Near-miss: wrong_answer"
+      },
+      {
+        "rank": 3,
+        "model": "Flawed Solver (Brute Force.Py)",
+        "provider": "N/A",
+        "algorithmic": 0.0,
+        "agentic": 0.0,
+        "adversarial": 0.0,
+        "overall": 0.0,
+        "date": "2025-07-04",
+        "notes": "Near-miss: wrong_answer"
+      },
+      {
+        "rank": 4,
+        "model": "Flawed Solver (Naive Set.Py)",
+        "provider": "N/A",
+        "algorithmic": 0.0,
+        "agentic": 0.0,
+        "adversarial": 0.0,
+        "overall": 0.0,
+        "date": "2025-07-04",
+        "notes": "Near-miss: wrong_answer"
+      },
+      {
+        "rank": 5,
+        "model": "Flawed Solver (Simple Dfs.Py)",
+        "provider": "N/A",
+        "algorithmic": 0.0,
+        "agentic": 0.0,
+        "adversarial": 0.0,
+        "overall": 0.0,
+        "date": "2025-07-04",
+        "notes": "Near-miss: wrong_answer"
+      },
+      {
+        "rank": 6,
+        "model": "Flawed Solver (Wrong Update.Py)",
+        "provider": "N/A",
+        "algorithmic": 0.0,
+        "agentic": 0.0,
+        "adversarial": 0.0,
+        "overall": 0.0,
+        "date": "2025-07-04",
+        "notes": "Near-miss: wrong_answer"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "Deathlegion Benchmark Harness",
+    "evaluation_date": "2025-07-04",
+    "harness_version": "1.0.0",
+    "notes": "Seed problems validated. Reference solutions pass all tests. Near-miss solutions correctly fail."
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "reference": {
+    "matrix_chain_order": {
+      "passed": true,
+      "score": 1.0,
+      "error": null,
+      "checks": {
+        "exit_code_match": true,
+        "no_fatal_errors": true,
+        "pattern_0": true,
+        "pattern_1": true,
+        "all_patterns_found": true,
+        "max_runtime_not_exceeded": true,
+        "no_timeout": true
+      },
+      "runtime_s": 0.012
+    },
+    "convex_hull_trick": {
+      "passed": true,
+      "score": 1.0,
+      "error": null,
+      "checks": {
+        "exit_code_match": true,
+        "no_fatal_errors": true,
+        "pattern_0": true,
+        "all_patterns_found": true,
+        "max_runtime_not_exceeded": true,
+        "no_timeout": true
+      },
+      "runtime_s": 0.011
+    },
+    "suffix_automaton": {
+      "passed": true,
+      "score": 1.0,
+      "error": null,
+      "checks": {
+        "exit_code_match": true,
+        "no_fatal_errors": true,
+        "pattern_0": true,
+        "pattern_1": true,
+        "all_patterns_found": true,
+        "max_runtime_not_exceeded": true,
+        "no_timeout": true
+      },
+      "runtime_s": 0.011
+    },
+    "max_flow_reservoir": {
+      "passed": true,
+      "score": 1.0,
+      "error": null,
+      "checks": {
+        "exit_code_match": true,
+        "no_fatal_errors": true,
+        "pattern_0": true,
+        "all_patterns_found": true,
+        "max_runtime_not_exceeded": true,
+        "no_timeout": true
+      },
+      "runtime_s": 0.013
+    },
+    "fenwick_tree_2d": {
+      "passed": true,
+      "score": 1.0,
+      "error": null,
+      "checks": {
+        "exit_code_match": true,
+        "no_fatal_errors": true,
+        "pattern_0": true,
+        "all_patterns_found": true,
+        "max_runtime_not_exceeded": true,
+        "no_timeout": true
+      },
+      "runtime_s": 0.011
+    }
+  },
+  "near_misses": {
+    "matrix_chain_order": [
+      {
+        "file": "greedy_nearmiss.py",
+        "passed": false,
+        "score": 0.0,
+        "error": null,
+        "checks": {
+          "exit_code_match": true,
+          "no_fatal_errors": true,
+          "pattern_0": false,
+          "pattern_1": true,
+          "all_patterns_found": false,
+          "max_runtime_not_exceeded": true,
+          "no_timeout": true
+        },
+        "runtime_s": 0.011
+      }
+    ],
+    "convex_hull_trick": [
+      {
+        "file": "brute_force_nearmiss.py",
+        "passed": false,
+        "score": 0.0,
+        "error": null,
+        "checks": {
+          "exit_code_match": true,
+          "no_fatal_errors": true,
+          "pattern_0": false,
+          "all_patterns_found": false,
+          "max_runtime_not_exceeded": true,
+          "no_timeout": true
+        },
+        "runtime_s": 0.011
+      }
+    ],
+    "suffix_automaton": [
+      {
+        "file": "naive_set_nearmiss.py",
+        "passed": false,
+        "score": 0.0,
+        "error": null,
+        "checks": {
+          "exit_code_match": true,
+          "no_fatal_errors": true,
+          "pattern_0": true,
+          "pattern_1": false,
+          "all_patterns_found": false,
+          "max_runtime_not_exceeded": true,
+          "no_timeout": true
+        },
+        "runtime_s": 0.011
+      }
+    ],
+    "max_flow_reservoir": [
+      {
+        "file": "simple_dfs_nearmiss.py",
+        "passed": false,
+        "score": 0.0,
+        "error": null,
+        "checks": {
+          "exit_code_match": true,
+          "no_fatal_errors": true,
+          "pattern_0": false,
+          "all_patterns_found": false,
+          "max_runtime_not_exceeded": true,
+          "no_timeout": true
+        },
+        "runtime_s": 0.011
+      }
+    ],
+    "fenwick_tree_2d": [
+      {
+        "file": "wrong_update_nearmiss.py",
+        "passed": false,
+        "score": 0.0,
+        "error": null,
+        "checks": {
+          "exit_code_match": true,
+          "no_fatal_errors": true,
+          "pattern_0": false,
+          "all_patterns_found": false,
+          "max_runtime_not_exceeded": true,
+          "no_timeout": true
+        },
+        "runtime_s": 0.011
+      }
+    ]
+  }
+}

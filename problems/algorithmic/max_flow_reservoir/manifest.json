@@ -1,0 +1,29 @@
+{
+  "id": "max_flow_reservoir",
+  "title": "Maximum Flow with Capacity Scaling",
+  "category": "algorithmic",
+  "languages_allowed": [
+    "python"
+  ],
+  "time_limit_s": 30,
+  "memory_limit_mb": 256,
+  "prompt_md": "prompt.md",
+  "reference_solution": {
+    "path": "reference.py",
+    "language": "python",
+    "is_verified": true,
+    "expected_output_hash": ""
+  },
+  "grader_spec": {
+    "module": "execution_trace",
+    "config": {
+      "expected_patterns": [
+        "Max flow: 23"
+      ],
+      "expected_exit_code": 0,
+      "input": "",
+      "max_runtime_s": 10
+    }
+  },
+  "difficulty_rationale": "Implements Dinic's max flow algorithm with capacity scaling (O(E * V^2) worst-case but O(E * sqrt(V)) for unit-capacity networks). Requires BFS level graph construction and DFS blocking flow with proper edge reversal. Uses 'Max flow' technique from the design guide. Near-miss uses simple DFS path finding without capacity management."
+}

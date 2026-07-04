@@ -1,0 +1,29 @@
+{
+  "id": "convex_hull_trick",
+  "title": "Convex Hull Trick \u2014 Li Chao Segment Tree",
+  "category": "algorithmic",
+  "languages_allowed": [
+    "python"
+  ],
+  "time_limit_s": 30,
+  "memory_limit_mb": 256,
+  "prompt_md": "prompt.md",
+  "reference_solution": {
+    "path": "reference.py",
+    "language": "python",
+    "is_verified": true,
+    "expected_output_hash": ""
+  },
+  "grader_spec": {
+    "module": "execution_trace",
+    "config": {
+      "expected_patterns": [
+        "Query results: [30, 30, 30, 30, 30]"
+      ],
+      "expected_exit_code": 0,
+      "input": "",
+      "max_runtime_s": 10
+    }
+  },
+  "difficulty_rationale": "Implements Li Chao segment tree for dynamic line insertion and point query maximum. Requires understanding of segment tree with lazy line propagation, convex line property for monotonic queries. Uses the 'Convex hull trick (Li Chao tree)' technique from the design guide. Near-miss uses O(n^2) brute force which is too slow for large inputs."
+}

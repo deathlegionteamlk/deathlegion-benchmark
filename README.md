@@ -87,23 +87,22 @@ Key differentiators:
 
 ## Leaderboard
 
-*Results from official evaluation runs. Submit your results by opening a PR — see [CONTRIBUTING.md](CONTRIBUTING.md).*
+*Results from official evaluation runs. The table below shows validation results from the harness test suite. Models are scored on 5 algorithmic seed problems. Submit your results by opening a PR — see [CONTRIBUTING.md](CONTRIBUTING.md).*
 
 | Rank | Model | Provider | Algorithmic | Agentic | Adversarial | Overall | Date |
 |---|---|---|---|---|---|---|---|
-| — | — | — | — | — | — | — | — |
-| 1 | Gemini 2.5 Pro | Google | % | % | % | % | TBD |
-| 2 | Claude 4 Sonnet | Anthropic | % | % | % | % | TBD |
-| 3 | GPT-5 | OpenAI | % | % | % | % | TBD |
-| 4 | DeepSeek R1 | DeepSeek | % | % | % | % | TBD |
-| 5 | Llama 4 405B | Meta | % | % | % | % | TBD |
-| 6 | Qwen 3 | Alibaba | % | % | % | % | TBD |
-| 7 | Mistral Large | Mistral AI | % | % | % | % | TBD |
-| 8 | Command R+ | Cohere | % | % | % | % | TBD |
-| 9 | Gemini 2.0 Flash | Google | % | % | % | % | TBD |
-| 10 | Llama 3.1 405B | Meta | % | % | % | % | TBD |
+| 1 | **Reference Solver (Perfect)** | N/A | **100.0%** | — | — | **33.3%** | 2025-07-04 |
+| 2 | Greedy (matrix_chain_order) | N/A | 0.0% | — | — | 0.0% | 2025-07-04 |
+| 3 | Brute Force (convex_hull_trick) | N/A | 0.0% | — | — | 0.0% | 2025-07-04 |
+| 4 | Naive Set (suffix_automaton) | N/A | 0.0% | — | — | 0.0% | 2025-07-04 |
+| 5 | Simple DFS (max_flow_reservoir) | N/A | 0.0% | — | — | 0.0% | 2025-07-04 |
+| 6 | Wrong Update (fenwick_tree_2d) | N/A | 0.0% | — | — | 0.0% | 2025-07-04 |
+| — | Gemini 2.5 Pro | Google | TBD | TBD | TBD | TBD | TBD |
+| — | Claude 4 Sonnet | Anthropic | TBD | TBD | TBD | TBD | TBD |
+| — | GPT-5 | OpenAI | TBD | TBD | TBD | TBD | TBD |
+| — | DeepSeek R1 | DeepSeek | TBD | TBD | TBD | TBD | TBD |
 
-*Leaderboard will be populated as models are evaluated through the harness. See [Model Evaluation Guide](docs/model_evaluation_guide.md) for details.*
+*Leaderboard will be populated as models are evaluated through the harness. The current entries are from the reference solution and near-miss validation suite. See [Model Evaluation Guide](docs/model_evaluation_guide.md) for details.*
 
 ## How to Run
 

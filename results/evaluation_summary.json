@@ -1,0 +1,67 @@
+{
+  "evaluation_summary": {
+    "problems_total": 5,
+    "reference_passed": 5,
+    "reference_failed": 0,
+    "near_miss_total": 5,
+    "near_miss_passed": 0,
+    "near_miss_failed": 5
+  },
+  "problems": {
+    "matrix_chain_order": {
+      "reference_passed": true,
+      "reference_score": 1.0,
+      "near_misses": [
+        {
+          "file": "greedy_nearmiss.py",
+          "passed": false,
+          "score": 0.0
+        }
+      ]
+    },
+    "convex_hull_trick": {
+      "reference_passed": true,
+      "reference_score": 1.0,
+      "near_misses": [
+        {
+          "file": "brute_force_nearmiss.py",
+          "passed": false,
+          "score": 0.0
+        }
+      ]
+    },
+    "suffix_automaton": {
+      "reference_passed": true,
+      "reference_score": 1.0,
+      "near_misses": [
+        {
+          "file": "naive_set_nearmiss.py",
+          "passed": false,
+          "score": 0.0
+        }
+      ]
+    },
+    "max_flow_reservoir": {
+      "reference_passed": true,
+      "reference_score": 1.0,
+      "near_misses": [
+        {
+          "file": "simple_dfs_nearmiss.py",
+          "passed": false,
+          "score": 0.0
+        }
+      ]
+    },
+    "fenwick_tree_2d": {
+      "reference_passed": true,
+      "reference_score": 1.0,
+      "near_misses": [
+        {
+          "file": "wrong_update_nearmiss.py",
+          "passed": false,
+          "score": 0.0
+        }
+      ]
+    }
+  }
+}
