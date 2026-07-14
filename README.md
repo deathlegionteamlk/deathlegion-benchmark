@@ -225,3 +225,7 @@ If you use the Deathlegion Benchmark in your research, please cite:
 
 <!-- Badge earned via contribution -->
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
+
+<!-- DL Code Badge -->
+![Status](https://img.shields.io/badge/status-active-success?style=flat-square)
+
