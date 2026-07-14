@@ -133,16 +133,10 @@ bash scripts/test_models.sh --provider openrouter --model anthropic/claude-3.5-s
 
 ```bash
 # Evaluate a single problem with a candidate solution
-python harness/agentic_runner.py \
-    --manifest problems/algorithmic/some_problem/manifest.json \
-    --solution /path/to/solution.py \
-    --timeout 60
+python harness/agentic_runner.py     --manifest problems/algorithmic/some_problem/manifest.json     --solution /path/to/solution.py     --timeout 60
 
 # Full model evaluation
-python scoring/evaluate_model.py \
-    --manifest-dir problems/ \
-    --model-id my-model \
-    --output results.json
+python scoring/evaluate_model.py     --manifest-dir problems/     --model-id my-model     --output results.json
 ```
 
 ### Running Tests
@@ -228,3 +222,6 @@ If you use the Deathlegion Benchmark in your research, please cite:
     url = {https://github.com/deathlegionteamlk/deathlegion-benchmark}
 }
 ```
+
+<!-- Badge earned via contribution -->
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
